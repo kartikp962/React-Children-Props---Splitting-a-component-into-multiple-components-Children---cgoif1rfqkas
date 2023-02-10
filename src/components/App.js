@@ -13,7 +13,7 @@ const App = () => {
     <div id="main">
       <ChildComponent> 
        <input id='input' value={inputValue} onChange={handleInputChange} />
-      <ChildComponent />
+      </ ChildComponent>
       <p id='output'>{Number(inputValue) * Number(inputValue)}</p>
     </div>
   )
