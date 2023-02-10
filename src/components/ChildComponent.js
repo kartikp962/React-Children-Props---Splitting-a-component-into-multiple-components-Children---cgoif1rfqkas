@@ -5,7 +5,7 @@ const ChildComponent = (props) => {
   return (
     <div id="child">
       Find The Square <br/>
-       {props.children}
+     {props.children}
     </div>
   )
 }
